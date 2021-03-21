@@ -6,6 +6,7 @@ public class ItemStateIdleCristian : ItemStateBaseCristian
 {
     public override void StateInit(ItemControllerCristian item)
     {
+        item.SetStateText("Idle");
         item.SetSpriteColor(Color.gray);
     }
 
